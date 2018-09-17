@@ -1,0 +1,53 @@
+Members:
+12IT37 Kusum Vanwani     
+12IT39 Madhavi Srinivasan  - madhavi94@gmail.com
+12IT80 Smriti Raj
+12IT81 Sneha T.
+
+
+
+
+Steps for executing Document Clustering project.
+
+Step 1:
+
+Installation requirements
+1. python 2.7 or higher
+2. django , nltk and numpy package has to be downloaded
+
+
+Files provided :
+views.py
+urls.py
+settings.py
+static folder
+
+Step 2:
+1. Start a project in django
+on the command prompt go to the path:
+C:/python27/lib/site-packages/django-1.7.1-py2.7.egg/django
+
+2. type " django-admin startproject wta "
+3. a folder wta will be created , go inside that folder by typing " cd wta "
+4. now type "django-admin startapp app1 "
+
+
+Step 3 :
+1.Copy the contents of views.py , urls.py and settings.py as provided.
+2.place the static folder inside "django" folder
+
+Step 4 :
+start the django server by typing the following command:
+"python manage.py runserver"
+note : manage.py is present in the wta folder
+
+Step 5 : 
+Open the browser and type " localhost:8000" to launch the application
+
+Step 6:
+To use the application , 
+1.upload a text file with a mixture of topics
+2.enter desired number of latent topics you want to discover
+3.enter no. of iterations ( eg : 100,200 etc)
+   
+
